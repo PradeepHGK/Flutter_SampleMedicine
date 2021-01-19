@@ -132,20 +132,26 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           child: Container(
             height: 5,
             width: 60,
-            color: currentPage == 0 ? Colors.black : Colors.grey,
+            decoration: BoxDecoration(
+                color: currentPage == 0 ? Colors.black : Colors.grey,
+                borderRadius: BorderRadius.circular(10)),
           ),
         ),
         Container(
           height: 5,
           width: 60,
-          color: currentPage == 1 ? Colors.black : Colors.grey,
+          decoration: BoxDecoration(
+              color: currentPage == 1 ? Colors.black : Colors.grey,
+              borderRadius: BorderRadius.circular(10)),
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
             height: 5,
             width: 60,
-            color: currentPage == 2 ? Colors.black : Colors.grey,
+            decoration: BoxDecoration(
+                color: currentPage == 2 ? Colors.black : Colors.grey,
+                borderRadius: BorderRadius.circular(10)),
           ),
         )
       ],
